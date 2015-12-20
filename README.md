@@ -17,15 +17,11 @@ function fileHandler( fileEntry ) {
 
 * **.html**
 ```
-<meta http-equiv="Content-Security-Policy"
-          content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
 <script src="js/exernalStorageSdcardAccess.js"></script>
 ```
 * **config.xml**
 ```
-<preference name="AndroidPersistentFileLocation" value="Compatibility" />
-<preference name="AndroidExtraFilesystems" value="files,files-external,documents,sdcard,cache,cache-external" />
-
+delete: <preference name="AndroidExtraFilesystems"/>
 ```
 * make sure testing environment can **access** it's own external storage at the time of testing. ( e.p. if the device is connected with usb, make sure it is connected as a camera`;` Call the APIs after recieving the `"deviceready"` event )
 

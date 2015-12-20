@@ -15,7 +15,7 @@ function fileHandler( fileEntry ) {
 
 * **install** cordova-plugin-files from: https://github.com/apache/cordova-plugin-file
 
-* **.Html**
+* **.html**
 ```
 <meta http-equiv="Content-Security-Policy"
           content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
@@ -27,12 +27,12 @@ function fileHandler( fileEntry ) {
 <preference name="AndroidExtraFilesystems" value="files,files-external,documents,sdcard,cache,cache-external" />
 
 ```
-* make sure testing environment can access it's own external storage at the time of testing. ( e.p. if you connect it with usb, make sure it is connected as a camera )
+* make sure testing environment can **access** it's own external storage at the time of testing. ( e.p. if you connect it with usb, make sure it is connected as a camera )
 
 ### Things need to know before looking into the source code
-DirectoryEntry  https://cordova.apache.org/docs/en/2.4.0/cordova/file/directoryentry/directoryentry.html
+DirectoryEntry:  https://cordova.apache.org/docs/en/2.4.0/cordova/file/directoryentry/directoryentry.html
 <br>
-FileEntry   http://docs.phonegap.com/en/edge/cordova_file_file.md.html#FileEntry
+FileEntry:   http://docs.phonegap.com/en/edge/cordova_file_file.md.html#FileEntry
 
 ### About correct path parameter
 ```javascript

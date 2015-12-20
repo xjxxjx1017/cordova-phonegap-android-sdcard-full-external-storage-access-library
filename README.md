@@ -11,7 +11,7 @@ function fileHandler( fileEntry ) {
 }
 ```
 
-### Installation:
+### Preparation:
 
 * **install** cordova-plugin-files from: https://github.com/apache/cordova-plugin-file
 

@@ -29,7 +29,7 @@ function fileHandler( fileEntry ) {
 ```
 * make sure testing environment can **access** it's own external storage at the time of testing. ( e.p. if you connect it with usb, make sure it is connected as a camera )
 
-###
+### APIs
 **ExternalStorageSdcardAccess( _fileHandler, _errorHandler )**<br>
 `Both parameters have default handler. Create a new instance of this class to use the API.`
 `@fileHandler(fileEntry): when a file is discovered, the handler will be called, pass a FileEntry object`

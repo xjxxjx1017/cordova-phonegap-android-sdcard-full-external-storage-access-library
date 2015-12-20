@@ -27,18 +27,18 @@ function fileHandler( fileEntry ) {
 <preference name="AndroidExtraFilesystems" value="files,files-external,documents,sdcard,cache,cache-external" />
 
 ```
-* make sure testing environment can **access** it's own external storage at the time of testing. ( e.p. if you connect it with usb, make sure it is connected as a camera )
+* make sure testing environment can **access** it's own external storage at the time of testing. ( e.p. if the device is connected with usb, make sure it is connected as a camera`;` Call the APIs after recieving the `"deviceready"` event )
 
 ### APIs
-**ExternalStorageSdcardAccess( _fileHandler, _errorHandler )**<br>
+ExternalStorageSdcardAccess( _fileHandler, _errorHandler ):<br>
 `Create a new instance of this class to use the API.Both parameters have default handler. `<br>
 `@params _fileHandler(fileEntry): when a file is discovered, the handler will be called, pass a FileEntry object`<br>
-`@params _errorHandler(error): when a error occurs, the handler will be called, pass a FileError object`<br>
-**ExternalStorageSdcardAccess.scanRoot**<br>
-`Scan all the files by using all the pathes in the array`<br>
-**ExternalStorageSdcardAccess.scanPathList( arrayOfPath )**<br>
-`Scan all the files and directories from the root`<br>
-**ExternalStorageSdcardAccess.scanPath( path )**<br>
+`@params _errorHandler(error): when a error occurs, the handler will be called, pass a FileError object`<br><br>
+ExternalStorageSdcardAccess.scanRoot:<br>
+`Scan all the files by using all the pathes in the array`<br><br>
+ExternalStorageSdcardAccess.scanPathList( arrayOfPath ):<br>
+`Scan all the files and directories from the root`<br><br>
+ExternalStorageSdcardAccess.scanPath( path ):<br>
 `Scan all the files by using the path`<br>
 
 ### Things need to know before looking into the source code

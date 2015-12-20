@@ -31,7 +31,7 @@ function fileHandler( fileEntry ) {
 
 ### APIs
 **ExternalStorageSdcardAccess( _fileHandler, _errorHandler )**<br>
-`Both parameters have default handler. Create a new instance of this class to use the API.`<br>
+`Create a new instance of this class to use the API.Both parameters have default handler. `<br>
 `@params _fileHandler(fileEntry): when a file is discovered, the handler will be called, pass a FileEntry object`<br>
 `@params _errorHandler(error): when a error occurs, the handler will be called, pass a FileError object`<br>
 **ExternalStorageSdcardAccess.scanRoot**<br>

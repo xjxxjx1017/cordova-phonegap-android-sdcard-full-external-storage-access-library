@@ -1,7 +1,7 @@
 # Cordova/Phonegap
-# Android sdcard & external storage access API
+# Android SDcard & External Storage access API
 
-##### This is a sample API of using cordova-plugin-files to scan sdcard & external-storage in Android
+This is a sample API of using cordova-plugin-files to scan sdcard & external-storage in Android
 
 ### Example:
 ```javascript

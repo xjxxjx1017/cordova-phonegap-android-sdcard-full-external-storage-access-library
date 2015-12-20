@@ -5,7 +5,7 @@ This is a sample API of using cordova-plugin-files to scan sdcard & external-sto
 
 ### Example of using the API:
 ```javascript
-new ExternalStorageSdcardAccess( fileHandler, null ).scanPath( "file:///storage/sdcard1/music" );
+new ExternalStorageSdcardAccess( fileHandler ).scanPath( "file:///storage/sdcard1/music" );
 function fileHandler( fileEntry ) {
     console.log( fileEntry.name + " | " + fileEntry.toURL() );
 }

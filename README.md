@@ -1,5 +1,5 @@
-# Cordova/Phonegap
-# Android SDcard & External Storage access API
+## Cordova/Phonegap
+## Android SDcard & External Storage access API
 
 This is a sample API of using cordova-plugin-files to scan sdcard & external-storage in Android
 
@@ -28,6 +28,17 @@ function fileHandler( fileEntry ) {
 
 ```
 * make sure testing environment can **access** it's own external storage at the time of testing. ( e.p. if you connect it with usb, make sure it is connected as a camera )
+
+###
+**ExternalStorageSdcardAccess( _fileHandler, _errorHandler )**
+`Both parameters have default handler. Create a new instance of this class to use the API.`
+`@fileHandler(fileEntry): when a file is discovered, the handler will be called, pass a FileEntry object`
+`@errorHandler(error): when a error occurs, the handler will be called, pass a FileError object`
+**ExternalStorageSdcardAccess.scanRoot**
+`Scan all the files by using all the pathes in the array`
+**ExternalStorageSdcardAccess.scanPathList( arrayOfPath )**
+`Scan all the files and directories from the root`
+**ExternalStorageSdcardAccess.scanPath( path )**
 
 ### Things need to know before looking into the source code
 DirectoryEntry:  https://cordova.apache.org/docs/en/2.4.0/cordova/file/directoryentry/directoryentry.html

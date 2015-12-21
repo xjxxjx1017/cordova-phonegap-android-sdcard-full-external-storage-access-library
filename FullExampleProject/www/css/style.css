@@ -1,0 +1,40 @@
+.ui-header .ui-title,
+.ui-footer .ui-title,
+.ui-btn-inner *
+{
+   white-space: normal !important;
+}
+
+.photo
+{
+   text-align: center;
+}
+
+#player-play,
+#player-stop
+{
+   display: inline-block;
+   width: 48px;
+   height: 48px;
+}
+
+#player-play
+{
+   background-image: url('../images/play.png');
+}
+
+#player-stop
+{
+   background-image: url('../images/stop.png');
+}
+
+#time-slider
+{
+   display: none;
+}
+
+div.ui-slider-track
+{
+   margin: 0;
+   width: 100%;
+}

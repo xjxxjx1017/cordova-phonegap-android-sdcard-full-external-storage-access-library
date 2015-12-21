@@ -1,0 +1,21 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.xjxxjx1017.console"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.xjxxjx1017.console"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.xjxxjx1017.console"
+        }
+    },
+    "dependent_plugins": {}
+}

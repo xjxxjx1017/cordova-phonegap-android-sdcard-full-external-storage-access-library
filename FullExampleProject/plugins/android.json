@@ -1,0 +1,21 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "io.xjxxjx1017.audio_player"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "io.xjxxjx1017.audio_player"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "io.xjxxjx1017.audio_player"
+        }
+    },
+    "dependent_plugins": {}
+}
